@@ -1,11 +1,15 @@
-def F2C(F)
-if F:
-    return C
-else:
-    return "null"
+import math
+import sys
+def F2C(F):
+    if type(F) == float:
+        return C
+    else:
+        return None
 
-def C2F(C)
-if C:
-    return F
-else:
-    return "null"
+def C2F(C):
+    if type(C) == float or :
+        return F
+    elif type(C) == int:
+        return
+    else:
+        return None
